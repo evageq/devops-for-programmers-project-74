@@ -4,8 +4,8 @@ export DATABASE_USERNAME=postgres
 export DATABASE_PASSWORD=password
 
 help:
-	setup - app setup
-	start - run app
+	@echo "setup - app setup"
+	@echo "start - run app"
 
 setup: 
 	docker compose run --rm app make setup
